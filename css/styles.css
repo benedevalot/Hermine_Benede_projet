@@ -62,5 +62,37 @@
   #boutonsClavier button:active {
     background-color:yellow;}
 
+/* Styles spécifiques pour les appareils mobiles et tablettes */
+@media (max-width: 640px) {
+  #boutonsClavier {
+    flex-direction: column;
+    border: transparent;
 
+  }
+
+  #boutonsClavier button {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    border: transparent;
+    background-color: transparent;
+  
+  }
+
+  #boutonReinitialiser {
+    margin-top: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Style CSS pour rendre le tableau responsive */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+}
     
