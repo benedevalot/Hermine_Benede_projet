@@ -956,6 +956,7 @@ document.addEventListener("DOMContentLoaded", function () {
                           }
 
                  else if (tableau[nextPosition.y][nextPosition.x] === "j") {
+            
                     gameOver();
                     return;
                   }
